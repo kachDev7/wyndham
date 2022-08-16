@@ -44,6 +44,12 @@ a {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+.iconn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 /* Tools */
 .boda1{
   border: 2px solid black;
@@ -65,6 +71,9 @@ a {
 }
 .boda7{
   border: 2px solid rgb(9, 240, 240);
+}
+.icon-h{
+  position: relative;
 }
 
 
@@ -150,6 +159,9 @@ a {
   .brb-20 p{
     color: #fff;
   }
+  .brb-20 h5{
+    color: #fff;
+  }
 
 }
 
@@ -166,5 +178,8 @@ a {
   }
   .brb-20 p{
     color: rgb(27, 23, 23);
+  }
+  .brb-20 h5{
+    color: rgb(27, 23, 23)f;
   }
 }

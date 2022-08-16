@@ -37,8 +37,13 @@ export default function Home() {
               </div> */}
             </div>
             <div className="py-3 px-5 landing-text">
-                <p>Located in Deira, Wyndham Dubai Deira is adjacent to Gold Souk with other popular attractions like Dubai Creek within a couple of miles (3 km).</p>
-            </div>
+            <h5 className="text-center my-3">Our Fitness Facility</h5>
+                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+                <div className="d-flex jae text-muted py-3">
+                  <i className="bi bi-telephone h1"></i>
+                  <i className="bi bi-chat h1"></i>
+                  <i className="bi bi-whatsapp h1"></i>
+                </div>            </div>
           <button className="contact-btn p-3 fw-bold mb-3">CONTACT AGENT</button>
 
           </div>
@@ -63,8 +68,13 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
-                <p className=" text-center p-2">43-inch TVs come with cable channels. Bathrooms offer rainfall showers, hair dryers, and free toiletries. Minibars, electric kettles, and safes are other standard amenities. Change of towels is available on request.</p>
-              </div>
+              <h5 className="text-center my-3">Our Fitness Facility</h5>
+                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+                <div className="d-flex jae text-muted py-3">
+                  <i className="bi bi-telephone h1"></i>
+                  <i className="bi bi-chat h1"></i>
+                  <i className="bi bi-whatsapp h1"></i>
+                </div>              </div>
             </div>
           </div>
           {/* Facs */}
@@ -80,8 +90,13 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
+              <h5 className="text-center my-3">Our Fitness Facility</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
-              </div>
+                <div className="d-flex jae text-muted py-3">
+                  <i className="bi bi-telephone h1"></i>
+                  <i className="bi bi-chat h1"></i>
+                  <i className="bi bi-whatsapp h1"></i>
+                </div>              </div>
             </div>
           </div>
           {/* Facs */}
@@ -97,8 +112,13 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
+              <h5 className="text-center my-3">Our Fitness Facility</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
-              </div>
+                <div className="d-flex jae text-muted py-3">
+                  <i className="bi bi-telephone h1"></i>
+                  <i className="bi bi-chat h1"></i>
+                  <i className="bi bi-whatsapp h1"></i>
+                </div>              </div>
             </div>
           </div>
           {/* Facs */}
@@ -114,8 +134,13 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
+              <h5 className="text-center my-3">Our Fitness Facility</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
-              </div>
+                <div className="d-flex jae text-muted py-3">
+                  <i className="bi bi-telephone h1"></i>
+                  <i className="bi bi-chat h1"></i>
+                  <i className="bi bi-whatsapp h1"></i>
+                </div>              </div>
             </div>
           </div>
           {/* Facs */}
@@ -131,8 +156,15 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
+                <h5 className="text-center my-3">Our Fitness Facility</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+                <div className="d-flex jae text-muted py-3">
+                  <i className="bi bi-telephone h1"></i>
+                  <i className="bi bi-chat h1"></i>
+                  <i className="bi bi-whatsapp h1"></i>
+                </div>
               </div>
+
             </div>
           </div>
 
@@ -145,18 +177,18 @@ export default function Home() {
             <p className="lead">
             Guests staying at Wyndham Dubai Deira enjoy access to a full-service spa, an outdoor pool, and a sauna. There's free valet parking, and an airport shuttle (available 24 hours) for AED 100 per vehicle one-way. The 24-hour front desk has staff standing by to help with luggage storage, dry cleaning/laundry, and tours or tickets. Other amenities at this spa hotel include free WiFi in public areas, conference space, and a 24-hour business center.
             </p>
-            <div className="d-sm-flex">
+            <div className="d-sm-flex jae">
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-x-circle h text-primary"></i> Free Wifi</p>              
+                  <p className="lead text-center fw-bold"><i className="bi bi-location h text-primary"></i> Steps from Gold Souk</p>              
               </div>
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-x-circle h text-primary"></i> Free Wifi</p>              
+                  <p className="lead text-center fw-bold"><i className="bi bi-wifi h text-primary"></i> Free WiFi and wired Internet in public areas</p>              
               </div>
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-x-circle h text-primary"></i> Free Wifi</p>              
+                  <p className="lead text-center fw-bold"><i className="bi bi-cup-hot text-primary"></i> Onsite Dinning</p>              
               </div>
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-x-circle h text-primary"></i> Free Wifi</p>              
+                  <p className="lead text-center fw-bold"><i className="bi bi-p-circle h text-primary"></i> Free Valet Parking</p>              
               </div>
             </div>
           </div>
