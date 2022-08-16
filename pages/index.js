@@ -55,15 +55,15 @@ export default function Home() {
             <h4 className="fw-bold fac-head pb-2 mb-3">Rooms</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/room1.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/room2.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/room3.webp" height={200} width={300} className="br-10 " /></div>
               </div>
               {/* <div className="d-block d-sm-none">
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
-                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+                <p className=" text-center p-2">43-inch TVs come with cable channels. Bathrooms offer rainfall showers, hair dryers, and free toiletries. Minibars, electric kettles, and safes are other standard amenities. Change of towels is available on request.</p>
               </div>
             </div>
           </div>
