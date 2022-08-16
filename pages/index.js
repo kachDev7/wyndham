@@ -13,8 +13,8 @@ export default function Home() {
 
       <main className="">
         <div className="">
-          <div className="text-center text-light lgb-img landing">
-            <h3>Welcome to </h3>
+          <div className="text-center text-light lgb-img landing d-sm-flex column jae">
+            <h3 className='pt-5'>Welcome to </h3>
             <h1 className="fw-bold">Wyndham Dubai Deira</h1>
             <h3 className="">- Nigerian Checkout</h3>
             <div className="d-flex jae">
@@ -26,6 +26,7 @@ export default function Home() {
                 <i className="bi bi-x-circle h1"></i>
                 <p className="lead">Location</p>
               </div>
+              
               {/* <div className="p-1">
                 <i className="bi bi-x-circle h1"></i>
                 <p className="lead">Hospitality</p>
@@ -35,6 +36,9 @@ export default function Home() {
                 <p className="lead">Rating</p>
               </div> */}
             </div>
+            <div className="py-3 px-5 landing-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem blanditiis, neque corporis iusto fuga doloribus dolore, culpa accusantium, maiores reprehenderit quod eius optio vero quam aliquam non eligendi inventore!</p>
+              </div>
 
           </div>
         </div>

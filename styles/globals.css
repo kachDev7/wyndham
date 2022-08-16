@@ -23,6 +23,9 @@ a {
   background-repeat: no-repeat;
   height: 90vh;
 }
+.landing-text{
+  max-width: 600px;
+}
 
 /* Tools */
 .boda1{
