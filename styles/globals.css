@@ -26,6 +26,12 @@ a {
 .landing-text{
   max-width: 600px;
 }
+.contact-btn{
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+}
 
 /* Tools */
 .boda1{

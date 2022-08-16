@@ -15,7 +15,7 @@ export default function Home() {
         <div className="">
           <div className="text-center text-light lgb-img landing d-sm-flex column jae">
             <h3 className='pt-5'>Welcome to </h3>
-            <h1 className="fw-bold">Wyndham Dubai Deira</h1>
+            <h1 className="fw-bold mt-3">Wyndham Dubai Deira</h1>
             <h3 className="">- Nigerian Checkout</h3>
             <div className="d-flex jae">
               <div className="p-1">
@@ -37,8 +37,9 @@ export default function Home() {
               </div> */}
             </div>
             <div className="py-3 px-5 landing-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem blanditiis, neque corporis iusto fuga doloribus dolore, culpa accusantium, maiores reprehenderit quod eius optio vero quam aliquam non eligendi inventore!</p>
-              </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem blanditiis, neque corporis iusto fuga doloribus dolore!</p>
+            </div>
+          <button className="contact-btn p-3 fw-bold mb-3">CONTACT AGENT</button>
 
           </div>
         </div>
