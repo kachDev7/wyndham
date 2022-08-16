@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
           {/* Facs */}
-          <div className="mt-4">
+          <div className="my-5">
             <h4 className="fw-bold fac-head pb-2 mb-3">Dinning</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
           </div>
           {/* Facs */}
-          <div className="mt-4">
+          <div className="my-5">
             <h4 className="fw-bold fac-head pb-2 mb-3">Bar</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
           {/* Facs */}
-          <div className="mt-4">
+          <div className="my-5">
             <h4 className="fw-bold fac-head pb-2 mb-3">Pools</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
           </div>
           {/* Facs */}
-          <div className="mt-4">
+          <div className="my-5">
             <h4 className="fw-bold fac-head pb-2 mb-3">Fitness Facility</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
