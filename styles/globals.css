@@ -132,6 +132,9 @@ a {
 .br-20{
       border-radius: 20px;
 }
+.brb-20{
+  border-radius: 0 0 20px 20px;
+}
 
 /* big */
 @media (max-width : 760px){

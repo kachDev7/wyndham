@@ -61,8 +61,8 @@ export default function Home() {
               {/* <div className="d-block d-sm-none">
                 small
               </div> */}
-              <div className="pt-sm-5 pt-2 ">
-                <p className="lead p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+              <div className="pt-sm-5 pt-2 bg-dark bg-light-sm brb-20">
+                <p className=" text-center text-light text-sm-dark p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
               </div>
             </div>
           </div>
