@@ -43,7 +43,30 @@ export default function Home() {
 
           </div>
         </div>
+
+        <div className="text-center">
+          <h1 className="fw-bold text-dark py-3">OUR FACILITIES</h1>
+        </div>
         
+        <div className="container">
+          <div className="">
+            <h4 className="fw-bold fac-head pb-2 mb-3">Dinning</h4>
+            <div className="fac-box p-sm-5 br-20">
+              <div className="d-flex img-box">
+                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+         
+              </div>
+              {/* <div className="d-block d-sm-none">
+                small
+              </div> */}
+              <div className="pt-sm-5 pt-2 ">
+                <p className="lead p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   )
