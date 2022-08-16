@@ -37,7 +37,7 @@ export default function Home() {
               </div> */}
             </div>
             <div className="py-3 px-5 landing-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem blanditiis, neque corporis iusto fuga doloribus dolore!</p>
+                <p>Located in Deira, Wyndham Dubai Deira is adjacent to Gold Souk with other popular attractions like Dubai Creek within a couple of miles (3 km).</p>
             </div>
           <button className="contact-btn p-3 fw-bold mb-3">CONTACT AGENT</button>
 
