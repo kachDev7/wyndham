@@ -124,7 +124,7 @@ export default function Home() {
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
                 <div className="my-3"><Image src="/fit1.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/fit4.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/fit5.webp" height={200} width={300} className="br-10 " /></div>
                 <div className="my-3"><Image src="/fit3.webp" height={200} width={300} className="br-10 " /></div>
               </div>
               {/* <div className="d-block d-sm-none">
@@ -135,6 +135,24 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
+          {/* Feature */}
+          <div className="text-center">
+            <h1 className="fw-bold text-dark py-3">PROPERTY FEATURES</h1>
+          </div>
+          <div className="text-center mx-5">
+            <p className="lead">
+            Guests staying at Wyndham Dubai Deira enjoy access to a full-service spa, an outdoor pool, and a sauna. There's free valet parking, and an airport shuttle (available 24 hours) for AED 100 per vehicle one-way. The 24-hour front desk has staff standing by to help with luggage storage, dry cleaning/laundry, and tours or tickets. Other amenities at this spa hotel include free WiFi in public areas, conference space, and a 24-hour business center.
+            </p>
+            <div className="d-sm-flex">
+            <div className="p-1 d-flex jac">
+                <i className="bi bi-x-circle h3"></i>
+                <p className="lead text-center">Free Wifi</p>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </main>
     </div>
