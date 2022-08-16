@@ -17,7 +17,7 @@ export default function Home() {
             <h3>Welcome to </h3>
             <h1 className="fw-bold">Wyndham Dubai Deira</h1>
             <h3 className="">- Nigerian Checkout</h3>
-            <div className="d-flex-sm">
+            <div className="d-flex jae">
               <div className="p-1">
                 <i className="bi bi-x-circle h1"></i>
                 <p className="lead">Hotel</p>
