@@ -72,9 +72,9 @@ export default function Home() {
             <h4 className="fw-bold fac-head pb-2 mb-3">Dinning</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/din1.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/din2.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/din3.webp" height={200} width={300} className="br-10 " /></div>
               </div>
               {/* <div className="d-block d-sm-none">
                 small
@@ -89,9 +89,9 @@ export default function Home() {
             <h4 className="fw-bold fac-head pb-2 mb-3">Bar</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/bar1.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/bar2.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/bar3.webp" height={200} width={300} className="br-10 " /></div>
               </div>
               {/* <div className="d-block d-sm-none">
                 small
@@ -106,9 +106,26 @@ export default function Home() {
             <h4 className="fw-bold fac-head pb-2 mb-3">Swimming Pools</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/mesw.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/pool1.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/pool2.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/pool3.webp" height={200} width={300} className="br-10 " /></div>
+              </div>
+              {/* <div className="d-block d-sm-none">
+                small
+              </div> */}
+              <div className="pt-sm-5 pt-2  brb-20">
+                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+              </div>
+            </div>
+          </div>
+          {/* Facs */}
+          <div className="">
+            <h4 className="fw-bold fac-head pb-2 mb-3">Fitness Facility</h4>
+            <div className="fac-box p-sm-5 br-20">
+              <div className="d-flex img-box">
+                <div className="my-3"><Image src="/fit1.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/fit2.webp" height={200} width={300} className="br-10 " /></div>
+                <div className="my-3"><Image src="/fit3.webp" height={200} width={300} className="br-10 " /></div>
               </div>
               {/* <div className="d-block d-sm-none">
                 small
