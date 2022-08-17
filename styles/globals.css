@@ -151,7 +151,7 @@ a {
   border-radius: 0 0 20px 20px;
 }
 
-/* big */
+/* small */
 @media (max-width : 760px){
   .img-box{
     flex-direction: column;
@@ -171,7 +171,7 @@ a {
 
 }
 
-/* small */
+/* big */
 
 @media (min-width : 760px){
   .img-box{
@@ -186,6 +186,7 @@ a {
     color: rgb(27, 23, 23);
   }
   .brb-20 h5{
-    color: rgb(27, 23, 23)f;
+    /* color: rgb(27, 23, 23); */
+    color: rgb(27, 23, 23);
   }
 }

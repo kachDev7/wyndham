@@ -118,7 +118,7 @@ export default function Home() {
           </div>
           {/* Facs */}
           <div className="my-5">
-            <h4 className="fw-bold fac-head pb-2 mb-3">Pools</h4>
+            <h4 className="fw-bold fac-head pb-2 mb-3 box-shd-10">Pools</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
                 <div className="my-3"><Image src="/pool1.webp" height={200} width={300} className="br-10 " /></div>
