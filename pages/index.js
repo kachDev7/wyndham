@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,15 +18,20 @@ export default function Home() {
             <h3 className='pt-5'>Welcome to </h3>
             <h1 className="fw-bold mt-3">Wyndham Dubai Deira</h1>
             <h3 className="">- Nigerian Checkout</h3>
-            <div className="d-flex jae">
-              <div className="p-1">
+            <div className="d-flex column jae">
+
+              <div className="">
                 <i className="bi bi-house h4"></i>
-                <p className="lead">Hotel</p>
+                <p className="">4-Star Hotel, Resort.</p>
               </div>
-              <div className="p-1">
-                <i className="bi bi-pin-map h4"></i>
-                <p className="lead">Location</p>
+              <div className="">
+                <i className="bi bi-geo-alt h4"></i>
+                <div className="px-5 landing-text">
+                  <p className=" text-center p-2">Sherina Plaza 4 Al Corniche Rd 111 Dubai. Wyndham Dubai Deira is adjacent to Gold Souk with other popular attractions like Dubai Creek within a couple of miles (3 km).</p>
+                </div>
               </div>
+
+              
               
               {/* <div className="p-1">
                 <i className="bi bi-x-circle h1"></i>
@@ -36,10 +42,8 @@ export default function Home() {
                 <p className="lead">Rating</p>
               </div> */}
             </div>
-            <div className="py-3 px-5 landing-text">
-                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
-            </div>
-          <button className="contact-btn p-3 fw-bold mb-3">CONTACT AGENT</button>
+
+          <Link href="tel:09138236128"><button className="contact-btn p-3 fw-bold mb-3">CONTACT AGENT</button></Link>
 
           </div>
         </div>
@@ -63,8 +67,8 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
-              <h5 className="text-center my-3">Our Fitness Facility</h5>
-                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+              <h5 className="text-center my-3">Our Rooms</h5>
+                <p className=" text-center p-2">43-inch TVs come with cable channels. Bathrooms offer rainfall showers, hair dryers, and free toiletries. Minibars, electric kettles, and safes are other standard amenities. Change of towels is available on request.</p>
                 <div className="d-flex jae text-muted py-3">
                   <i className="bi bi-telephone h1"></i>
                   <i className="bi bi-chat h1"></i>
@@ -74,7 +78,7 @@ export default function Home() {
           </div>
           {/* Facs */}
           <div className="my-5">
-            <h4 className="fw-bold fac-head pb-2 mb-3">Dinning</h4>
+            <h4 className="fw-bold fac-head pb-2 mb-3">Restaurant</h4>
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
                 <div className="my-3"><Image src="/din1.webp" height={200} width={300} className="br-10 " /></div>
@@ -85,7 +89,7 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
-              <h5 className="text-center my-3">Our Fitness Facility</h5>
+              <h5 className="text-center my-3">Our Restaurant</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
                 <div className="d-flex jae text-muted py-3">
                   <i className="bi bi-telephone h1"></i>
@@ -107,8 +111,8 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
-              <h5 className="text-center my-3">Our Fitness Facility</h5>
-                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+              <h5 className="text-center my-3">Our Bar</h5>
+                <p className=" text-center p-2">International Bartenders trained to give front-desk services to our clients make our bar extra-ordinary and exclussively special from other regular bars. Experience also tasteful merchant confirmed drops of our win collection.</p>
                 <div className="d-flex jae text-muted py-3">
                   <i className="bi bi-telephone h1"></i>
                   <i className="bi bi-chat h1"></i>
@@ -129,8 +133,8 @@ export default function Home() {
                 small
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
-              <h5 className="text-center my-3">Our Fitness Facility</h5>
-                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+              <h5 className="text-center my-3">Our Pools</h5>
+                <p className=" text-center p-2">Pools are the very beauty of vacation and livelihood, here at Wyndham, we understand that and prioritize the up keep of the pools. Almost hourly water change and clean up.</p>
                 <div className="d-flex jae text-muted py-3">
                   <i className="bi bi-telephone h1"></i>
                   <i className="bi bi-chat h1"></i>
@@ -152,7 +156,7 @@ export default function Home() {
               </div> */}
               <div className="pt-sm-5 pt-2  brb-20">
                 <h5 className="text-center my-3">Our Fitness Facility</h5>
-                <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
+                <p className=" text-center p-2">Health is life!  Never loose track of your fitness routine while at our resort. We provide high quality fitness instruments to aid your exercise and keep you fit. </p>
                 <div className="d-flex jae text-muted py-3">
                   <i className="bi bi-telephone h1"></i>
                   <i className="bi bi-chat h1"></i>
