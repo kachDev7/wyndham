@@ -37,13 +37,8 @@ export default function Home() {
               </div> */}
             </div>
             <div className="py-3 px-5 landing-text">
-            <h5 className="text-center my-3">Our Fitness Facility</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
-                <div className="d-flex jae text-muted py-3">
-                  <i className="bi bi-telephone h1"></i>
-                  <i className="bi bi-chat h1"></i>
-                  <i className="bi bi-whatsapp h1"></i>
-                </div>            </div>
+            </div>
           <button className="contact-btn p-3 fw-bold mb-3">CONTACT AGENT</button>
 
           </div>
@@ -179,16 +174,16 @@ export default function Home() {
             </p>
             <div className="d-sm-flex jae">
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-location h text-primary"></i> Steps from Gold Souk</p>              
+                  <p className=" fw-bold"><i className="bi bi-pin-map h3 text-light bg-dark br-10 p-2 text-center"></i> Steps from Gold Souk</p>              
               </div>
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-wifi h text-primary"></i> Free WiFi and wired Internet in public areas</p>              
+                  <p className="text-center fw-bold"><i className="bi bi-wifi h3 text-primary"></i> Free WiFi and wired Internet in public areas</p>              
               </div>
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-cup-hot text-primary"></i> Onsite Dinning</p>              
+                  <p className=" text-center fw-bold"><i className="bi bi-cup-hot h3 text-primary"></i> Onsite Dinning</p>              
               </div>
               <div className="p-1 d-sm-flex jac">
-                  <p className="lead text-center fw-bold"><i className="bi bi-p-circle h text-primary"></i> Free Valet Parking</p>              
+                  <p className=" text-center fw-bold"><i className="bi bi-p-circle h3 text-primary"></i> Free Valet Parking</p>              
               </div>
             </div>
           </div>
