@@ -68,7 +68,10 @@ a {
   border-radius: 20px;
   color: rgb(27, 23, 23);
 }
-
+.flag{
+  border-left: 4px solid black;
+  background-color: rgba(20, 13, 13, 0.3);
+}
 /* Facilities */
 .fac-box{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;

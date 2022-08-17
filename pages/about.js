@@ -48,8 +48,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-center">
-          <h1 className="fw-bold text-dark py-3">ABOUT THIS AGENT</h1>
+        <div className="text-center pt-2">
+          <h1 className="fw-bold text-dark py-3 flag">ABOUT THIS AGENT</h1>
         </div>
         
         <div className="container">
@@ -64,8 +64,8 @@ export default function Home() {
 
           
         {/* Feature */}
-        <div className="text-center">
-            <h1 className="fw-bold text-dark py-3">PROPERTY FEATURES</h1>
+        <div className="text-center py-2">
+            <h1 className="fw-bold text-dark py-3 flag">PROPERTY FEATURES</h1>
           </div>
           <div className=" mx-sm-5">
             <p className="lead text-center">
@@ -88,8 +88,8 @@ export default function Home() {
           </div>
 
           {/* Why us */}
-          <div className="text-center">
-            <h1 className="fw-bold text-dark py-3">WHY US?</h1>
+          <div className="text-center py-2">
+            <h1 className="fw-bold text-dark py-3 flag">WHY US?</h1>
           </div>
           <div className=" mx-sm-5">
             <p className="lead text-center">
@@ -97,8 +97,8 @@ export default function Home() {
             </p>
           </div>
           {/* Why us */}
-          <div className="text-center">
-            <h1 className="fw-bold text-dark py-3">CONTACT US?</h1>
+          <div className="text-center py-2">
+            <h1 className="fw-bold text-dark py-3 flag">CONTACT US?</h1>
           </div>
 
           <div className=" mx-sm-5">
