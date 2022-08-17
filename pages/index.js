@@ -19,11 +19,11 @@ export default function Home() {
             <h3 className="">- Nigerian Checkout</h3>
             <div className="d-flex jae">
               <div className="p-1">
-                <i className="bi bi-x-circle h1"></i>
+                <i className="bi bi-house h4"></i>
                 <p className="lead">Hotel</p>
               </div>
               <div className="p-1">
-                <i className="bi bi-x-circle h1"></i>
+                <i className="bi bi-pin-map h4"></i>
                 <p className="lead">Location</p>
               </div>
               
@@ -168,26 +168,49 @@ export default function Home() {
           <div className="text-center">
             <h1 className="fw-bold text-dark py-3">PROPERTY FEATURES</h1>
           </div>
-          <div className="text-center mx-sm-5">
-            <p className="lead">
+          <div className=" mx-sm-5">
+            <p className="lead text-center">
             Guests staying at Wyndham Dubai Deira enjoy access to a full-service spa, an outdoor pool, and a sauna. There's free valet parking, and an airport shuttle (available 24 hours) for AED 100 per vehicle one-way. The 24-hour front desk has staff standing by to help with luggage storage, dry cleaning/laundry, and tours or tickets. Other amenities at this spa hotel include free WiFi in public areas, conference space, and a 24-hour business center.
             </p>
-            <div className="d-sm-flex jae">
-              <div className="p-1 d-sm-flex jac">
-                  <p className=" fw-bold"><i className="bi bi-pin-map h3 text-light bg-dark br-10 p-2 text-center"></i> Steps from Gold Souk</p>              
+            <div className="d-sm-flex jae fac-box br-10 p-4">
+              <div className="p-1 d-sm-flex jac m-2">
+                  <p className=" fw-bold"><i className="bi bi-geo-alt h3 text-light bg-dark br-10 p-2 text-center"></i> Steps from Gold Souk</p>              
               </div>
-              <div className="p-1 d-sm-flex jac">
-                  <p className="text-center fw-bold"><i className="bi bi-wifi h3 text-primary"></i> Free WiFi and wired Internet in public areas</p>              
+              <div className="p-1 d-sm-flex jac m-2">
+                  <p className=" fw-bold"><i className="bi bi-wifi h3 text-light bg-dark br-10 p-2 text-center"></i> Free WiFi and wired Internet.</p>              
               </div>
-              <div className="p-1 d-sm-flex jac">
-                  <p className=" text-center fw-bold"><i className="bi bi-cup-hot h3 text-primary"></i> Onsite Dinning</p>              
+              <div className="p-1 d-sm-flex jac m-2">
+                  <p className="fw-bold"><i className="bi bi-cup-straw h3 text-light bg-dark br-10 p-2 text-center"></i> Onsite Dinning</p>              
               </div>
-              <div className="p-1 d-sm-flex jac">
-                  <p className=" text-center fw-bold"><i className="bi bi-p-circle h3 text-primary"></i> Free Valet Parking</p>              
+              <div className="p-1 d-sm-flex jac m-2">
+                  <p className="fw-bold"><i className="bi bi-funnel h3 text-light bg-dark br-10 p-2 text-center"></i> Free Vehicle PMS</p>              
               </div>
             </div>
           </div>
-          
+
+          {/* Why us */}
+          <div className="text-center">
+            <h1 className="fw-bold text-dark py-3">WHY US?</h1>
+          </div>
+          <div className=" mx-sm-5">
+            <p className="lead text-center">
+            Guests staying at Wyndham Dubai Deira enjoy access to a full-service spa, an outdoor pool, and a sauna. There's free valet parking, and an airport shuttle (available 24 hours) for AED 100 per vehicle one-way. The 24-hour front desk has staff standing by to help with luggage storage, dry cleaning/laundry, and tours or tickets. Other amenities at this spa hotel include free WiFi in public areas, conference space, and a 24-hour business center.
+            </p>
+          </div>
+          {/* Why us */}
+          <div className="text-center">
+            <h1 className="fw-bold text-dark py-3">CONTACT US?</h1>
+          </div>
+
+          <div className=" mx-sm-5">
+            <p className="lead text-center">
+              Reach us via any of the above listed forms. We're always active to <strong>Take Your Calls</strong> or <strong>Chat</strong> with you, So as to profer answers to your questions or Take your reservation orders to the Management prior to your visit to Dubai. 
+            </p>
+          </div>
+          <div className=" d-flex jae">
+            <button className="contact-btnB p-2 fw-bold mb-3"><i className="bi bi-telephone h3 mx-2"></i>CALL AGENT</button>
+            <button className="contact-btnB p-2 fw-bold mb-3"><i className="bi bi-whatsapp h3 mx-2"></i>LIVE CHAT</button>
+          </div>
         </div>
       </main>
     </div>

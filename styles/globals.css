@@ -32,6 +32,12 @@ a {
   border-radius: 20px;
   color: #fff;
 }
+.contact-btnB{
+  background: transparent;
+  border: 2px solid rgb(27, 23, 23);
+  border-radius: 20px;
+  color: rgb(27, 23, 23);
+}
 
 /* Facilities */
 .fac-box{
