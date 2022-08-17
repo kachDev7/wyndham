@@ -188,7 +188,7 @@ export default function Home() {
           </div>
 
           {/* Why us */}
-          <div className="text-center py-2">
+          <div className="text-center py-3">
             <h1 className="fw-bold text-dark flag py-3">WHY US?</h1>
           </div>
           <div className=" mx-sm-5">

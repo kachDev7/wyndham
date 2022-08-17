@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="text-center pt-2">
-          <h1 className="fw-bold text-dark py-3 flag ">CONTACT THIS AGENT</h1>
+          <h1 className="fw-bold text-dark py-3 mx-3 flag ">CONTACT THIS AGENT</h1>
         </div>
         
         <div className="container">
