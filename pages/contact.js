@@ -56,7 +56,7 @@ export default function Home() {
 
           <div className=" mx-sm-5">
             <p className="lead text-center">
-              Reach us via any of the above listed forms. We're always active to <strong>Take Your Calls</strong> or <strong>Chat</strong> with you, So as to profer answers to your questions or Take your reservation orders to the Management prior to your visit to Dubai. 
+              Reach us via any of the listed forms. We're always active to <strong>Take Your Calls</strong> or <strong>Chat</strong> with you, So as to profer answers to your questions or Take your reservation orders to the Management prior to your visit to Dubai. 
             </p>
           </div>
           <div className=" d-flex jae">
