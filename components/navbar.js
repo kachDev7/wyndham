@@ -9,8 +9,8 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md bg-body navbar-body myNavv py-3">
         <div className="container">
             {/* <!-- Brand --> */}
-            <Image src="/logo.png" height={50} width={50} className="circle" />
-            <h4><span className="text-primary">Wyndham</span>.ng
+            <Image src="/logo1.jpg" height={50} width={50} className="circle" />
+            <h4><span className="text-primary">Wyndham</span>nig
 </h4>
 
             {/* <!-- Hambuger menu : visible @md --> */}

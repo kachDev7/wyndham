@@ -41,13 +41,29 @@ a {
   max-width: 600px;
 }
 .contact-btn{
+  outline: none;
   background: transparent;
   border: 2px solid #fff;
   border-radius: 20px;
   color: #fff;
 }
+.contact-btn:hover{
+  outline: none;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+}
 .contact-btnB{
+  outline: none;
   background: transparent;
+  border: 2px solid rgb(27, 23, 23);
+  border-radius: 20px;
+  color: rgb(27, 23, 23);
+}
+.contact-btnB:hover{
+  outline: none;
+  background: rgba(27, 23, 23, 0.1);
   border: 2px solid rgb(27, 23, 23);
   border-radius: 20px;
   color: rgb(27, 23, 23);
