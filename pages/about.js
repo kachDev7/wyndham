@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className="">
         <div className="">
-        <div className="text-center text-light lgb-img landing d-sm-flex column jae">
+        <div className="text-center text-light lgb-img landing1 d-sm-flex column jae">
             <h3 className='pt-5'>Get To Know More! </h3>
             <h1 className="fw-bold mt-3">Wyndham Dubai Deira</h1>
             <h3 className="">- Nigerian Checkout</h3>

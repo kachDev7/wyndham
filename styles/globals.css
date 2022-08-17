@@ -17,7 +17,21 @@ a {
 
 /* Home page */
 .landing{
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/mesw.webp');
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/out1.webp');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.landing1{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/mesw1.webp');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.landing2{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/mesw.webp');
   /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
