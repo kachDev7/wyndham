@@ -70,9 +70,8 @@ export default function Home() {
               <h5 className="text-center my-3">Our Rooms</h5>
                 <p className=" text-center p-2">43-inch TVs come with cable channels. Bathrooms offer rainfall showers, hair dryers, and free toiletries. Minibars, electric kettles, and safes are other standard amenities. Change of towels is available on request.</p>
                 <div className="d-flex jae text-muted py-3">
-                  <i className="bi bi-telephone h1"></i>
-                  <i className="bi bi-chat h1"></i>
-                  <i className="bi bi-whatsapp h1"></i>
+                  <Link href="tel:09138236128"><a className='text-muted'><i className="bi bi-telephone h1"></i></a></Link>
+                  <Link href="https://wa.link/iqtxsc"><a className='text-muted'><i className="bi bi-whatsapp h1"></i></a></Link>
                 </div>              </div>
             </div>
           </div>
@@ -92,9 +91,8 @@ export default function Home() {
               <h5 className="text-center my-3">Our Restaurant</h5>
                 <p className=" text-center p-2">This hotel is home to 2 onsite restaurants, perfect for a quick bite to eat. You can sip a beverage at the 2 coffee shops/cafes. Start each morning with continental breakfast, available for a fee from 6:30 AM to 11:00 AM.</p>
                 <div className="d-flex jae text-muted py-3">
-                  <i className="bi bi-telephone h1"></i>
-                  <i className="bi bi-chat h1"></i>
-                  <i className="bi bi-whatsapp h1"></i>
+                  <Link href="tel:09138236128"><a className='text-muted'><i className="bi bi-telephone h1"></i></a></Link>
+                  <Link href="https://wa.link/iqtxsc"><a className='text-muted'><i className="bi bi-whatsapp h1"></i></a></Link>
                 </div>              </div>
             </div>
           </div>
@@ -114,9 +112,8 @@ export default function Home() {
               <h5 className="text-center my-3">Our Bar</h5>
                 <p className=" text-center p-2">International Bartenders trained to give front-desk services to our clients make our bar extra-ordinary and exclussively special from other regular bars. Experience also tasteful merchant confirmed drops of our win collection.</p>
                 <div className="d-flex jae text-muted py-3">
-                  <i className="bi bi-telephone h1"></i>
-                  <i className="bi bi-chat h1"></i>
-                  <i className="bi bi-whatsapp h1"></i>
+                  <Link href="tel:09138236128"><a className='text-muted'><i className="bi bi-telephone h1"></i></a></Link>
+                  <Link href="https://wa.link/iqtxsc"><a className='text-muted'><i className="bi bi-whatsapp h1"></i></a></Link>
                 </div>              </div>
             </div>
           </div>
@@ -136,9 +133,8 @@ export default function Home() {
               <h5 className="text-center my-3">Our Pools</h5>
                 <p className=" text-center p-2">Pools are the very beauty of vacation and livelihood, here at Wyndham, we understand that and prioritize the up keep of the pools. Almost hourly water change and clean up.</p>
                 <div className="d-flex jae text-muted py-3">
-                  <i className="bi bi-telephone h1"></i>
-                  <i className="bi bi-chat h1"></i>
-                  <i className="bi bi-whatsapp h1"></i>
+                  <Link href="tel:09138236128"><a className='text-muted'><i className="bi bi-telephone h1"></i></a></Link>
+                  <Link href="https://wa.link/iqtxsc"><a className='text-muted'><i className="bi bi-whatsapp h1"></i></a></Link>
                 </div>              </div>
             </div>
           </div>
@@ -148,7 +144,7 @@ export default function Home() {
             <div className="fac-box p-sm-5 br-20">
               <div className="d-flex img-box">
                 <div className="my-3"><Image src="/fit1.webp" height={200} width={300} className="br-10 " /></div>
-                <div className="my-3"><Image src="/fit5.webp" height={200} width={300} className="br-10 " /></div>
+                {/* <div className="my-3"><Image src="/fit5.webp" height={200} width={300} className="br-10 " /></div> */}
                 <div className="my-3"><Image src="/fit3.webp" height={200} width={300} className="br-10 " /></div>
               </div>
               {/* <div className="d-block d-sm-none">
@@ -158,9 +154,8 @@ export default function Home() {
                 <h5 className="text-center my-3">Our Fitness Facility</h5>
                 <p className=" text-center p-2">Health is life!  Never loose track of your fitness routine while at our resort. We provide high quality fitness instruments to aid your exercise and keep you fit. </p>
                 <div className="d-flex jae text-muted py-3">
-                  <i className="bi bi-telephone h1"></i>
-                  <i className="bi bi-chat h1"></i>
-                  <i className="bi bi-whatsapp h1"></i>
+                  <Link href="tel:09138236128"><a className='text-muted'><i className="bi bi-telephone h1"></i></a></Link>
+                  <Link href="https://wa.link/iqtxsc"><a className='text-muted'><i className="bi bi-whatsapp h1"></i></a></Link>
                 </div>
               </div>
 
@@ -174,7 +169,7 @@ export default function Home() {
           </div>
           <div className=" mx-sm-5">
             <p className="lead text-center">
-            Guests staying at Wyndham Dubai Deira enjoy access to a full-service spa, an outdoor pool, and a sauna. There's free valet parking, and an airport shuttle (available 24 hours) for AED 100 per vehicle one-way. The 24-hour front desk has staff standing by to help with luggage storage, dry cleaning/laundry, and tours or tickets. Other amenities at this spa hotel include free WiFi in public areas, conference space, and a 24-hour business center.
+            We have lots of goodies ready for you! An outdoor pool,  a sauna, there's free valet parking, and an airport shuttle (available 24 hours) for AED 100 per vehicle one-way. The 24-hour front desk has staff standing by to help with luggage storage, dry cleaning/laundry, and tours or tickets. Other amenities at this spa hotel include free WiFi in public areas, conference space, and a 24-hour business center.
             </p>
             <div className="d-sm-flex jae fac-box br-10 p-4">
               <div className="p-1 d-sm-flex jac m-2">
@@ -212,8 +207,8 @@ export default function Home() {
             </p>
           </div>
           <div className=" d-flex jae">
-            <button className="contact-btnB p-2 fw-bold mb-3"><i className="bi bi-telephone h3 mx-2"></i>CALL AGENT</button>
-            <button className="contact-btnB p-2 fw-bold mb-3"><i className="bi bi-whatsapp h3 mx-2"></i>LIVE CHAT</button>
+          <Link href="tel:09138236128"><button className="contact-btnB p-2 fw-bold mb-3"><i className="bi bi-telephone h3 mx-2"></i>CALL AGENT</button></Link>
+          <Link href="https://wa.link/iqtxsc"><button className="contact-btnB p-2 fw-bold mb-3"><i className="bi bi-whatsapp h3 mx-2"></i>LIVE CHAT</button></Link>
           </div>
         </div>
       </main>
